@@ -3,6 +3,10 @@ AI Travel Agent - Main API Router
 FastAPI backend to connect all agents with frontend
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles

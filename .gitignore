@@ -37,7 +37,6 @@ venv.bak/
 .python-version
 
 # IDEs and editors
-.vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
@@ -58,8 +57,6 @@ db.sqlite3
 db.sqlite3-journal
 
 # Secrets and environment files
-.env
-.env.*
 *.pem
 *.key
 credentials.json
@@ -88,3 +85,4 @@ coverage.xml
 # Misc
 .ropeproject/
 .pytest_cache/
+config.bat
